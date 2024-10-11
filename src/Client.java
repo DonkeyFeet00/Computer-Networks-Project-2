@@ -7,14 +7,15 @@ class Client {
 
     public static void main(String args[]) {
         try {
-            JFrame frame = new JFrame("My First GUI");
+            JFrame frame = new JFrame("Client GUI");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setSize(300,300);
+            frame.setSize(700,700);
 
-
+            JLabel label1 = new JLabel("Add");
             JButton button1 = new JButton("Button 1");
+            JTextField text1 = new JTextField(5);
             JButton button2 = new JButton("Button 2");
-            JTextField text1 = new JTextField(10);
+
 
 
             frame.getContentPane().add(button1);
